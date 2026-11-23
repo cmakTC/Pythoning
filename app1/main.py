@@ -1,7 +1,7 @@
 import controller.py
 # main.py
 from fastapi import FastAPI
-from controllers import user_controller, order_controller
+from controller import user_controller, order_controller
 
 def create_app() -> FastAPI:
     app = FastAPI(title="My App")
